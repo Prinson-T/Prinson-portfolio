@@ -95,7 +95,7 @@ export const Projects = () => {
                 integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["Java", "Spring boot", "Spring Security", "MYSQL"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -121,7 +121,7 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-
+{/* 
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
@@ -159,7 +159,7 @@ export const Projects = () => {
                   View Project →
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </RevealOnScroll>
