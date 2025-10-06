@@ -21,7 +21,7 @@ export const Projects = () => {
                 monitoring and automated scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["React", "Java", "Spring Boot", "MSQL"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -42,7 +42,8 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-            <div
+
+            {/* <div
               className="
               glass p-6 rounded-xl border border-white/10 
               hover:-translate-y-1 hover:border-blue-500/30
@@ -56,7 +57,7 @@ export const Projects = () => {
                 and interactive reports.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["Java", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -79,7 +80,7 @@ export const Projects = () => {
                   View Project →
                 </a>
               </div>
-            </div>
+            </div> */}
 
             <div
               className="
